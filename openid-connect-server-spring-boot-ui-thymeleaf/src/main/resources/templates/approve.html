@@ -42,7 +42,7 @@
                           <h4>
                               <i class="icon-globe"></i> <span data-th-text="#{approve.caution.title}" data-th-remove="tag"></span>:
                           </h4>
-                          <p data-th-text="${approve.dynamically_registered(${client.createdAt})}">
+                          <p data-th-text="#{approve.dynamically_registered}">
                           </p>
                           <p data-th-text="|${ count } time${ count == 1 ? '' : 's' } previously.|">
                   			<th:block th:switch="${status.value}">
